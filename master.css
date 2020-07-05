@@ -1,0 +1,114 @@
+body{
+  background-color: #2b580c;
+  text-align: center;
+  color: gold;
+  margin: 0;
+}
+h1{
+  font-family: 'Seymour One', sans-serif;
+  color: gold;
+}
+
+span{
+  display: inline-block;
+  margin: auto 3rem;
+  padding: 0;
+
+}
+
+img{
+  width: 15rem;
+  height: 15rem;
+
+}
+
+.top{
+  border-style: dashed;
+  border-color: gold;
+  width: 100%;
+}
+
+#player1{
+  width:15rem;
+}
+
+#player2{
+  width:15rem;
+}
+
+.img-player1{
+object-fit: fill;
+}
+.img-player2{
+object-fit: fill;
+}
+
+.button{
+  background-color: gold;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 50%;
+  position:relative;
+}
+
+.dicebox1{
+  height: 15rem;
+  width: 15rem;
+
+}
+
+.dicebox2{
+  height: 15rem;
+  width: 15rem;
+
+}
+
+.winner-p1{
+  position: absolute;
+  left:80px;
+  top:200px;
+  transform: scaleX(-1);
+  border-style: solid;
+  border-color: #79d70f;
+  border-width: thick;
+  border-radius: 100%;
+}
+
+.winner-p2{
+  position: absolute;
+  right:80px;
+  top:200px;
+  border-style: solid;
+  border-color: #79d70f;
+  border-width: thick;
+  border-radius: 100%;
+}
+
+.loser-p1{
+  position: absolute;
+  left:80px;
+  top:200px;
+  transform: scaleX(-1);
+  border-style: solid;
+  border-color: #d32626;
+  border-width: thick;
+  border-radius: 100%;
+}
+
+.loser-p2{
+  position: absolute;
+  right:80px;
+  top:200px;
+  border-style: solid;
+  border-color: #d32626;
+  border-width: thick;
+  border-radius: 100%;
+}
+
+.div-result{
+  color: gold
+}
+
+.invisible{
+  visibility: hidden;
+}
